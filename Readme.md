@@ -15,7 +15,7 @@ NOTE: NOT EventHub namespace.
 
 The connection string should include EntityPath. Double check your connection string. It requres send/receive right to the Key. 
 
-Go to App Settings of your Function App. 
+Go to App Settings of your Function App. If you want to run locally, rename `local.settings.json.example` to `local.settings.json` Then fill the `YOUR_EVENT_HUB_CONNECTION_STRING_WITH_ENTITY_PATH` with your connection string.
 
 | APPSETTING_NAME | VALUE |
 |--|--|
